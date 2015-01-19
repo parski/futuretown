@@ -105,3 +105,11 @@ img {
 #subfooter {
     font-size: 0.7em;
 }
+
+.ascii {
+   text-shadow: 0px 0px 10px rgba(53,210,255,0.5);
+ 
+   -webkit-transition: text-shadow 0.2s ease-in-out;
+   -moz-transition:    text-shadow 0.2s ease-in-out;
+   transition:         text-shadow 0.2s ease-in-out;
+}
