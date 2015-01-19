@@ -11,6 +11,7 @@ body {
     background-repeat: repeat;
     background-color: #010d11;
     background-position: fixed;
+    height: 100%;
 }
 
 html { 
@@ -38,7 +39,8 @@ a:hover {
     color: #90e6ff;
 }
 
-p {padding: 0;
+p {
+    padding: 0;
     margin: 0;
 }
 
@@ -50,10 +52,12 @@ img {
     max-width: 100%;
     min-height: 100%;
     margin: auto;
+    position: relative;
     padding: 50px 60px;
 }
 
 #content{
+    padding-bottom:80px;
     width: 100%;
 }
 #header, #footer {width: 100%;
@@ -103,6 +107,10 @@ img {
 }
 
 #subfooter {
+    height:80px;
+    width:100%;
+    position:absolute;
+    bottom:0;
     font-size: 0.7em;
 }
 
